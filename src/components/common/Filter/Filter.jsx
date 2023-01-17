@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import React, { useMemo } from "react";
 import FilterButton from "./FilterButton";
 import Dropdown from "../Dropdown";
 import FilterOption from "./FilterOption";

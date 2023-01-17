@@ -1,6 +1,6 @@
-import { createRef } from "react";
+import React, { createRef } from "react";
 import { useAppContex } from "./context";
-import { useOutsideClick } from "./hooks";
+import { useOutsideClick } from "./hooks/useOutsideClick";
 import SearchInput from "./components/SearchInput";
 import RatingFilter from "./components/RatingFilter";
 import GenreFilter from "./components/GenreFilter";

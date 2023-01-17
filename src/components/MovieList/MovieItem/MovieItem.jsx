@@ -1,3 +1,4 @@
+import React from 'react';
 import Rating from "../../common/Rating";
 
 import styles from "./MovieItem.module.scss";

@@ -1,3 +1,4 @@
+import React from 'react';
 import { Rating as StarRating } from "react-simple-star-rating";
 import { StarFill, StarEmpty } from "../icons";
 

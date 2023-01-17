@@ -1,3 +1,4 @@
+import React from 'react';
 import { useAppContex } from "../../context";
 import Dropdown from "../common/Dropdown";
 import MovieItem from "./MovieItem";

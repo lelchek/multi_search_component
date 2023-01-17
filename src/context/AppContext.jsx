@@ -1,4 +1,4 @@
-import { useState, createContext, useContext, useEffect } from "react";
+import React, { useState, createContext, useContext, useEffect } from "react";
 import moviesData from "../moviesData.json";
 import { filterBySearch, filterByRating, filterByGenre } from "../helpers";
 

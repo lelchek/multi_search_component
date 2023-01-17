@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import React, { useMemo } from "react";
 import { useAppContex } from "../../context";
 import Filter from "../common/Filter";
 import Rating from "../common/Rating";

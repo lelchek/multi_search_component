@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from "./FilterOption.module.scss";
 
 const FilterOption = ({ id, checked, label, onChange }) => {

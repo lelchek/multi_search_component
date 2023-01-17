@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const ChevronUp = () => {
   return (
     <svg

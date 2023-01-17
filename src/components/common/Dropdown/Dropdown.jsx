@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from "./Dropdown.module.scss";
 
 const Dropdown = ({ children, className }) => {

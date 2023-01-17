@@ -1,4 +1,4 @@
-import { useEffect, useCallback } from "react";
+import  { useEffect, useCallback } from "react";
 
 export const useOutsideClick = (ref, handler) => {
   // eslint-disable-next-line react-hooks/exhaustive-deps

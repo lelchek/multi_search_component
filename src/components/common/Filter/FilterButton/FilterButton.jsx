@@ -1,3 +1,4 @@
+import React from 'react';
 import { ChevronDown, ChevronUp } from "../../icons";
 
 import styles from "./FilterButton.module.scss";
