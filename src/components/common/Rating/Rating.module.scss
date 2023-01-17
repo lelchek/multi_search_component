@@ -1,0 +1,12 @@
+@import "../../../styles/scss/base";
+
+.root {
+  position: relative;
+  top: 2px;
+}
+
+.icon {
+  & > svg {
+    margin-right: 2px;
+  }
+}

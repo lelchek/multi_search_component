@@ -1,0 +1,30 @@
+@import "../../../../styles/scss/base";
+
+.root {
+  display: flex;
+  align-items: center;
+
+  &:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+}
+
+.checkbox {
+  flex-shrink: 0;
+  width: 14px;
+  height: 14px;
+  border: 1px solid $black;
+  border-radius: 0;
+  margin-right: 10px;
+}
+
+.label {
+  white-space: nowrap;
+  font-weight: $regular-font-weight;
+}
+
+.root,
+.checkbox,
+.label {
+  cursor: pointer;
+}

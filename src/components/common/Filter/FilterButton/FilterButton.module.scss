@@ -1,0 +1,12 @@
+@import "../../../../styles/scss/base";
+
+.root {
+  padding: 12px 16px;
+  border: 1px solid $secondary-color;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin-right: 16px;
+}

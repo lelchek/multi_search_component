@@ -1,0 +1,9 @@
+@import "../../../styles/scss/base";
+
+.root {
+  position: absolute;
+  margin-top: 4px;
+  border: 1px solid $secondary-color;
+  padding: 18px 12px;
+  width: min-content;
+}

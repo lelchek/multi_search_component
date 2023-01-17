@@ -1,0 +1,49 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+i,
+ol,
+ul,
+li,
+form,
+label {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+button {
+  background: none;
+  border: none;
+
+  &,
+  &:hover,
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}
+
+input {
+  outline: none;
+  border-radius: 0px;
+}
+
+ol,
+ul {
+  list-style: none;
+}
