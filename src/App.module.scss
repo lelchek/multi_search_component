@@ -1,11 +1,11 @@
 @import "./styles/scss/base";
 
 .root {
-  padding: 22px;
   display: flex;
 }
 
 .searchWrapper {
+  position: relative;
   width: 440px;
 }
 
